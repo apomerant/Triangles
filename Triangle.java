@@ -17,13 +17,18 @@ public class Triangle{
     this.angle1 = angle1;
     this.angle2 = angle2; 
     this.angle3 = angle3;
+
+    
     calculateProperties();
     
   }
 
+  protected String getName() {
+    return "Triangle";
+  }
   public String toString() {
     StringBuffer sb = new StringBuffer();
-    sb.append("Triangle \n");
+    sb.append(getName() + "\n");
     sb.append("Side1: " + this.side1 + "\n");
     sb.append("Side2: " + this.side2 + "\n");
     sb.append("Side3: " + this.side3 + "\n");
