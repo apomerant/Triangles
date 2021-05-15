@@ -18,6 +18,8 @@ public class TriangleFactory {
       case RA_ISOSCELES:
       result = RightAngleIsoscelesTriangle.instance();
       break;
+      default:
+      result = EquilateralTriangle.instance();
     }
     return result;
 
