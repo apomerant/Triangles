@@ -30,6 +30,7 @@ public class Triangle{
     sb.append("Angle1: " + this.angle1 + "\n");
     sb.append("Angle2: " + this.angle2 + "\n");
     sb.append("Angle3: " + this.angle3 + "\n");
+    sb.append("Perimeter: " + this.perimeter() + "\n");
     return sb.toString();
 
   }
@@ -37,6 +38,8 @@ public class Triangle{
   protected void calculateProperties(){
 
   }
+
+
 
   public double perimeter(){
     return this.side1 + this.side2 + this.side3;

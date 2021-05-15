@@ -1,6 +1,11 @@
 class Main {
   public static void main(String[] args) {
-    Triangle t = new EquilateralTriangle(5);
+
+
+    // what type of Triangle
+    Triangle t = TriangleFactory.createTriangle(TriangleFactory.RIGHT_ANGLE);
+
     System.out.println(t);
+
   }
 }
