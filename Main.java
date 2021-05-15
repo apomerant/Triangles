@@ -1,5 +1,6 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    Triangle t = new EquilateralTriangle(5);
+    System.out.println(t);
   }
 }
